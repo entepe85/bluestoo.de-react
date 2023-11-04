@@ -1,0 +1,60 @@
+:root {
+    --dark-link-color: #39c;
+    --default-link-color: #069;
+    --header-height: 70px;
+    --dark-bg: #0a3c4e;
+    --light-bg: #dee;
+    --header-shadow-color: #0a3c4e99;
+    --text-color: #fcf9e9;
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 5rem);
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: var(--text-color);
+    background-color: #242424;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-stop: always;
+    scroll-snap-type: y mandatory;
+    width: 100vw;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+svg {
+    fill: currentColor;
+    height: auto;
+    max-width: 80%;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: none;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: #0a3c4e;
+        background-color: #fcf9e9;
+    }
+}

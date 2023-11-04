@@ -1,0 +1,25 @@
+#intro {
+    justify-content: space-between;
+    min-height: 0;
+    padding: 0 0 1rem;
+
+    svg {
+        margin: auto;
+    }
+
+    @media (min-aspect-ratio: 4/3) {
+        min-height: calc(80vh - var(--header-height));
+    }
+
+    @media (max-width: 1279px) {
+        padding: 0;
+
+        svg {
+            padding: 0 1rem 1rem;
+        }
+    }
+}
+
+#group-image {
+    margin-bottom: 1.25rem;
+}

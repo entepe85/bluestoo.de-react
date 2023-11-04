@@ -1,0 +1,14 @@
+#about,
+#contact {
+    background-color: #0a3c4e;
+    color: #fcf9e9;
+
+    @media (prefers-color-scheme: light) {
+        background-color: #dee;
+        color: #0a3c4e;
+    }
+}
+
+#about {
+    font-size: 0.75rem;
+}

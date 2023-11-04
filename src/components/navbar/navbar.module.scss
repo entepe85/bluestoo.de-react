@@ -1,0 +1,32 @@
+.main-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.link {
+    color: #fcf9e9;
+    font-size: clamp(16px, 2vw, 24px);
+    position: relative;
+    text-decoration: none;
+
+    &::after {
+        border-bottom: 2px solid #fcf9e9;
+        content: '';
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 0.125em);
+        transform: scale(0, 1);
+        transform-origin: center center;
+        transition: transform 300ms ease-in-out;
+    }
+
+    &:hover,
+    &.active {
+        &::after {
+            transform: scale(1, 1);
+        }
+    }
+}

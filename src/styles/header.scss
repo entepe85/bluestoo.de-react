@@ -1,0 +1,8 @@
+.page-header {
+    background-color: var(--dark-bg);
+    box-shadow: 0 0 3px var(--header-shadow-color);
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
