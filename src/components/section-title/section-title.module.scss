@@ -1,6 +1,7 @@
 .section-title {
     font-family: 'Fredericka the Great', 'Raleway', sans-serif;
     font-size: clamp(1.25rem, 10vw, 2.5rem);
+    hyphens: manual;
     position: relative;
     text-align: center;
 

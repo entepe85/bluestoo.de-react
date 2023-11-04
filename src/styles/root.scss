@@ -22,8 +22,17 @@
     scroll-behavior: smooth;
 }
 
+* {
+    box-sizing: border-box;
+
+    > * {
+        box-sizing: inherit;
+    }
+}
+
 body {
     height: 100vh;
+    hyphens: auto;
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-snap-stop: always;

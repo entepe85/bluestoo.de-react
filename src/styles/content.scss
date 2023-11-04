@@ -10,7 +10,9 @@
 }
 
 #about {
-    font-size: 0.75rem;
+    @media (min-width: 960px) {
+        font-size: 0.75rem;
+    }
 }
 
 #contact {
@@ -23,7 +25,11 @@
 }
 
 .copyright {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     margin: 0.25rem 0 0.5rem;
     text-align: right;
+
+    @media (min-width: 960px) {
+        font-size: 0.5rem;
+    }
 }

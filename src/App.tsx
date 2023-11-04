@@ -3,6 +3,7 @@ import {
     IntroSection,
     Link,
     NavBar,
+    Player,
     Section,
     SectionTitle,
 } from './components';
@@ -81,47 +82,9 @@ function App() {
                     ekstatischer Freude reicht.
                 </p>
             </Section>
-            {/* TODO: Refactor into separate file & Implement consent mechanism or risk a GDPR fine! >:o */}
             <Section id="player" hasWrapper={true}>
                 <SectionTitle label="Zum Reinhören" />
-                <iframe
-                    width="100%"
-                    height="480"
-                    allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/214456951&color=%234c7484&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    frameBorder="0"
-                />
-                <div
-                    style={{
-                        fontSize: '10px',
-                        color: '#cccccc',
-                        lineBreak: 'anywhere',
-                        wordBreak: 'normal',
-                        overflow: 'hidden',
-                        whiteSpace: 'nowrap',
-                        textOverflow: 'ellipsis',
-                        fontFamily:
-                            'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
-                        fontWeight: '100',
-                    }}
-                >
-                    <a
-                        href="https://soundcloud.com/blues-too"
-                        title="Blues Too"
-                        target="_blank"
-                        style={{ color: '#cccccc', textDecoration: 'none' }}
-                    >
-                        Blues Too
-                    </a>
-                    <a
-                        href="https://soundcloud.com/blues-too/sets/demo-snippets"
-                        title="Demo Snippets"
-                        target="_blank"
-                        style={{ color: '#cccccc', textDecoration: 'none' }}
-                    >
-                        Demo Snippets
-                    </a>
-                </div>
+                <Player />
             </Section>
             <Section id="contact" hasWrapper={true}>
                 <SectionTitle label="Kontakt & Booking" />

@@ -1,0 +1,32 @@
+.player-info {
+    align-items: center;
+    background-color: #eee;
+    background-image: url('../../assets/cloud.svg');
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-size: 90%;
+    color: var(--dark-bg);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+    height: clamp(240px, 67vh, 400px);
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+
+    a {
+        color: inherit;
+    }
+
+    @media (min-width: 960px) {
+        background-size: 67%;
+        font-size: 0.75rem;
+    }
+}
+
+.player-button {
+    background-color: var(--dark-bg);
+    border: none;
+    color: #eee;
+    padding: 0.5em;
+}
