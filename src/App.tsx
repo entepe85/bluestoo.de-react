@@ -95,7 +95,7 @@ function App() {
                     <br />
                     M: +49 (0) 151 55885969
                 </p>
-                <img src="./src/assets/contact.webp" className="full-width" />
+                <img src="./assets/contact.webp" className="full-width" />
                 <p className="copyright">
                     &copy; {new Date().getFullYear()} Blues Too - all rights
                     reserved
