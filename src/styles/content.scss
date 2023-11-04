@@ -12,3 +12,18 @@
 #about {
     font-size: 0.75rem;
 }
+
+#contact {
+    padding-bottom: 0;
+
+    img {
+        line-height: 0;
+        margin-top: 1.25rem;
+    }
+}
+
+.copyright {
+    font-size: 0.5rem;
+    margin: 0.25rem 0 0.5rem;
+    text-align: right;
+}

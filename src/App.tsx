@@ -81,9 +81,9 @@ function App() {
                     ekstatischer Freude reicht.
                 </p>
             </Section>
+            {/* TODO: Refactor into separate file & Implement consent mechanism or risk a GDPR fine! >:o */}
             <Section id="player" hasWrapper={true}>
                 <SectionTitle label="Zum Reinhören" />
-                {/* TODO: Implement consent mechanism or risk a GDPR fine! >:o */}
                 <iframe
                     width="100%"
                     height="480"
@@ -122,6 +122,21 @@ function App() {
                         Demo Snippets
                     </a>
                 </div>
+            </Section>
+            <Section id="contact" hasWrapper={true}>
+                <SectionTitle label="Kontakt & Booking" />
+                <p>
+                    Peter-Albert Schott
+                    <br />
+                    @: peter@bluestoo.de
+                    <br />
+                    M: +49 (0) 151 55885969
+                </p>
+                <img src="./src/assets/contact.webp" className="full-width" />
+                <p className="copyright">
+                    &copy; {new Date().getFullYear()} Blues Too - all rights
+                    reserved
+                </p>
             </Section>
         </>
     );
