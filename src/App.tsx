@@ -89,9 +89,9 @@ function App() {
             <Section id="contact" hasWrapper={true}>
                 <SectionTitle label="Kontakt & Booking" />
                 <p>
-                    Peter-Albert Schott
+                    Peter-Ludolf Petersen
                     <br />
-                    @: peter@bluestoo.de
+                    @: kontakt@bluestoo.de
                     <br />
                     M: +49 (0) 151 55885969
                 </p>
