@@ -40,5 +40,6 @@
         "semi": true,
         "singleQuote": true
     },
-    "browserslist": "last 2 versions"
+    "browserslist": "last 2 versions",
+    "packageManager": "yarn@4.0.2"
 }
