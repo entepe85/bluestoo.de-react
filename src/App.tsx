@@ -12,7 +12,7 @@ import navStyles from './components/navbar/navbar.module.scss';
 
 function App() {
     useLayoutEffect(() => {
-        window.addEventListener('hashchange', (ev: HashChangeEvent) => {
+        const handleHashChange = (ev: HashChangeEvent) => {
             const id = ev.newURL.split('#')[1];
             if (id !== undefined) {
                 const activeLink = document.querySelector(
@@ -23,7 +23,11 @@ function App() {
                 activeLink?.classList.remove(navStyles['active']);
                 link?.classList.add(navStyles['active']);
             }
-        });
+        };
+
+        window.addEventListener('hashchange', handleHashChange);
+
+        return () => window.removeEventListener('hashchange', handleHashChange);
     }, []);
 
     return (
