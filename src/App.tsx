@@ -10,21 +10,19 @@ import {
 
 import navStyles from './components/navbar/navbar.module.scss';
 
+const handleHashChange = (ev: HashChangeEvent) => {
+    const id = ev.newURL.split('#')[1];
+    if (id !== undefined) {
+        const activeLink = document.querySelector(`.${navStyles['active']}`);
+        const link = document.querySelector(`a[href="#${id}"]`);
+
+        activeLink?.classList.remove(navStyles['active']);
+        link?.classList.add(navStyles['active']);
+    }
+};
+
 function App() {
     useLayoutEffect(() => {
-        const handleHashChange = (ev: HashChangeEvent) => {
-            const id = ev.newURL.split('#')[1];
-            if (id !== undefined) {
-                const activeLink = document.querySelector(
-                    `.${navStyles['active']}`
-                );
-                const link = document.querySelector(`a[href="#${id}"]`);
-
-                activeLink?.classList.remove(navStyles['active']);
-                link?.classList.add(navStyles['active']);
-            }
-        };
-
         window.addEventListener('hashchange', handleHashChange);
 
         return () => window.removeEventListener('hashchange', handleHashChange);
