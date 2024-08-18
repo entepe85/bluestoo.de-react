@@ -65,10 +65,10 @@ function App() {
                 <p>
                     Die tiefen, seelenvollen Töne von Peter-Albert Schotts
                     Keyboard, die groovenden Bässe von Nils Torbjörn Petersen,
-                    Heinz-Jürgen Bergmanns virtuose Gitarrenarbeit, Jan-Hendrik
-                    Wegners harmonische Harp-Klänge und Boris Ehlers’ präzises
-                    Schlagzeugspiel verschmelzen zu einem hypnotischen
-                    Klangteppich, der das Publikum in seinen Bann zieht.
+                    Heinz-Jürgen Bergmanns virtuose Gitarrenarbeit und Boris
+                    Ehlers’ präzises Schlagzeugspiel verschmelzen zu einem
+                    hypnotischen Klangteppich, der das Publikum in seinen Bann
+                    zieht.
                 </p>
                 <p>
                     <strong>Blues Too - Keeping the Blues Alive</strong> ist
