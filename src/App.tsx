@@ -55,33 +55,36 @@ function App() {
             <IntroSection />
             <Section id="about" hasWrapper={true}>
                 <SectionTitle label="Über uns" />
+                <h3>In memoriam - Jan &amp; Heinz</h3>
                 <p>
-                    <strong>Blues Too</strong> zelebriert den Blues und
+                    <strong>Blues Too</strong> zelebrierte den Blues und
                     verwandte Genres auf eine Weise, die Tradition und Moderne
                     vereint. Mit einer Mischung aus eigenen Stücken und
-                    erstklassigen Coversongs bringen sie die Wurzeln des Blues
+                    erstklassigen Coversongs brachten sie die Wurzeln des Blues
                     in die Gegenwart.
                 </p>
                 <p>
                     Die tiefen, seelenvollen Töne von Peter-Albert Schotts
                     Keyboard, die groovenden Bässe von Nils Torbjörn Petersen,
-                    Heinz-Jürgen Bergmanns virtuose Gitarrenarbeit und Boris
-                    Ehlers’ präzises Schlagzeugspiel verschmelzen zu einem
-                    hypnotischen Klangteppich, der das Publikum in seinen Bann
-                    zieht.
+                    Heinz-Jürgen Bergmanns virtuose Gitarrenarbeit, die
+                    akzentuierten und perkussiven Harp-Klänge Jan-Hendrik
+                    Wegners und Boris Ehlers’ präzises Schlagzeugspiel
+                    verschmolzen zu einem hypnotischen Klangteppich, der das
+                    Publikum in seinen Bann zog.
                 </p>
                 <p>
-                    <strong>Blues Too - Keeping the Blues Alive</strong> ist
-                    mehr als nur eine Band. Es ist eine Mission. Die
-                    Bandmitglieder sind leidenschaftliche Botschafter des Blues,
-                    die es sich zur Aufgabe gemacht haben, die Flamme dieser
-                    Musikrichtung am Brennen zu halten.
+                    <strong>
+                        Leider haben wir im Jahre 2024 überraschend und sehr
+                        bestürzt von nicht nur einem, sondern zwei langjährigen
+                        musikalischen Weggefährten und guten Freunden -
+                        Jan-Hendrik Wegner und Heinz Bergmann - Abschied nehmen
+                        müssen.
+                    </strong>
                 </p>
                 <p>
-                    Ihre Live-Auftritte sind mit Energie und Leidenschaft
-                    geladen, und die Zuhörer werden auf eine emotionale Reise
-                    mitgenommen, die von tiefer Melancholie bis hin zu
-                    ekstatischer Freude reicht.
+                    Wir hoffen, dass die beiden die Heavenly Band jetzt mit
+                    ihrem ausgezeichneten Gitarren- und Harpspiel verstärken und
+                    schauen erst einmal, ob und wie es mit Blues Too weitergeht.
                 </p>
             </Section>
             <Section id="player" hasWrapper={true}>
@@ -89,7 +92,7 @@ function App() {
                 <Player />
             </Section>
             <Section id="contact" hasWrapper={true}>
-                <SectionTitle label="Kontakt & Booking" />
+                <SectionTitle label="Kontakt" />
                 <p>
                     Peter-Ludolf Petersen
                     <br />
